@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;800;900&display=swap');
+
+
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+
+
+@import "tailwindcss";
+
+
+.container1{
+  max-width: 1260px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
