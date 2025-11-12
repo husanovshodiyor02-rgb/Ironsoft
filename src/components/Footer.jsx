@@ -8,26 +8,31 @@ const Footer = () => {
         <h1 className="font-normal text-[48px] leading-[87%] text-center text-white pt-15 pb-7">
           FAQ
         </h1>
-        <select className="border md:w-[900px] w-auto h-[60px] px-[50px] rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
-          <option value="do you have all your team in-house?">
-            Do you have all your team in-house?
-          </option>
-        </select>
-        <select className="border md:w-[900px] w-auto h-[60px] px-[50px] my-3 rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
-          <option value="do you have all your team in-house?">
-            How can I get a quote for my project?
-          </option>
-        </select>
-        <select className="border md:w-[900px] w-auto h-[60px] px-[50px] rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
-          <option value="do you have all your team in-house?">
-            How can I control the project?
-          </option>
-        </select>
-        <select className="border md:w-[900px] w-auto h-[60px] px-[50px] my-3 rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
-          <option value="do you have all your team in-house?">
-            Who can recommend your software agency?
-          </option>
-        </select>
+        <div className='ml-[13%]'>
+          <div>
+            <select className="border md:w-[900px] w-auto h-[60px] px-[50px] rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
+              <option value="do you have all your team in-house?">
+                Do you have all your team in-house?
+              </option>
+            </select>
+            <select className="border md:w-[900px] w-auto h-[60px] px-[50px] my-3 rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
+              <option value="do you have all your team in-house?">
+                How can I get a quote for my project?
+              </option>
+            </select>
+            <select className="border md:w-[900px] w-auto h-[60px] px-[50px] rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
+              <option value="do you have all your team in-house?">
+                How can I control the project?
+              </option>
+            </select>
+            <select className="border md:w-[900px] w-auto h-[60px] px-[50px] my-3 rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
+              <option value="do you have all your team in-house?">
+                Who can recommend your software agency?
+              </option>
+            </select>
+          </div>
+        </div>
+
         <h1 className="font-normal text-[48px] leading-[100%] text-center text-white py-10">
           <span className="text-[#018abe]">Tell us</span> about your <br />{" "}
           amazing project
@@ -180,11 +185,11 @@ const Footer = () => {
             Get Started
           </button>
         </nav>
-        <div className='flex items-center justify-between py-6'>
+        <div className="flex items-center justify-between py-6">
           <p className="font-light text-lg leading-[130%] text-[#5c6268]">
             © IRONSOFT, ALL RIGHTS RESERVED
           </p>
-          <div className='flex gap-3 cursor-pointer'>
+          <div className="flex gap-3 cursor-pointer">
             <div>
               <svg
                 width="24"
