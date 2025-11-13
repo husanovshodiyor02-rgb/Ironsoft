@@ -8,24 +8,24 @@ const Footer = () => {
         <h1 className="font-normal text-[48px] leading-[87%] text-center text-white pt-15 pb-7">
           FAQ
         </h1>
-        <div className='ml-[13%]'>
+        <div className="ml-[13%]">
           <div>
-            <select className="border md:w-[900px] w-auto h-[60px] px-[50px] rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
+            <select className="border md:w-[900px] w-full h-[60px] md:px-[50px] px-8 rounded-[100px] border-solid border-[#555b60] font-normal md:text-[27px] text-[20px] leading-[87%] text-white">
               <option value="do you have all your team in-house?">
                 Do you have all your team in-house?
               </option>
             </select>
-            <select className="border md:w-[900px] w-auto h-[60px] px-[50px] my-3 rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
+            <select className="border md:w-[900px] w-full h-[60px] md:px-[50px] px-8 my-3 rounded-[100px] border-solid border-[#555b60] font-normal md:text-[27px] text-[20px] leading-[87%] text-white">
               <option value="do you have all your team in-house?">
                 How can I get a quote for my project?
               </option>
             </select>
-            <select className="border md:w-[900px] w-auto h-[60px] px-[50px] rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
+            <select className="border md:w-[900px] w-full h-[60px] md:px-[50px] px-8 rounded-[100px] border-solid border-[#555b60] font-normal md:text-[27px] text-[20px] leading-[87%] text-white">
               <option value="do you have all your team in-house?">
                 How can I control the project?
               </option>
             </select>
-            <select className="border md:w-[900px] w-auto h-[60px] px-[50px] my-3 rounded-[100px] border-solid border-[#555b60] font-normal text-[27px] leading-[87%] text-white">
+            <select className="border md:w-[900px] w-full h-[60px] md:px-[50px] px-8 my-3 rounded-[100px] border-solid border-[#555b60] font-normal md:text-[27px] text-[20px] leading-[87%] text-white">
               <option value="do you have all your team in-house?">
                 Who can recommend your software agency?
               </option>
@@ -38,7 +38,7 @@ const Footer = () => {
           amazing project
         </h1>
 
-        <div className="flex items-center justify-center gap-130 py-5">
+        <div className="hidden sm:flex items-center justify-center gap-130 py-5">
           <p className="font-bold text-xs leading-[167%] uppercase text-[#8baab7]">
             name
           </p>
@@ -57,7 +57,7 @@ const Footer = () => {
             </svg>
           </div>
         </div>
-        <div className="flex items-center justify-center gap-60">
+        <div className="hidden sm:flex items-center justify-center gap-60">
           <div className="flex  items-center gap-28">
             <p className="font-bold text-xs leading-[167%] uppercase text-[#8baab7]">
               Email
@@ -77,7 +77,7 @@ const Footer = () => {
               </svg>
             </div>
           </div>
-          <div className="flex items-center gap-28">
+          <div className="hidden sm:flex items-center gap-28">
             <p className="font-bold text-xs leading-[167%] uppercase text-[#8baab7]">
               Phone
             </p>
@@ -104,7 +104,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center gap-125 py-5">
+        <div className="hidden sm:flex items-center justify-center gap-125 py-5">
           <p className="font-bold text-xs leading-[167%] uppercase text-[#8baab7]">
             message
           </p>
