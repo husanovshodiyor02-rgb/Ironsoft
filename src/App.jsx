@@ -5,6 +5,9 @@ import Why from './components/Why'
 import Case from './components/Case'
 import Service from './components/Service'
 import Footer from './components/Footer'
+import Library from './components/Library'
+import BusSystem from './components/BusSystem'
+import Shop from './components/Shop'
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
       <Case/>
       <Service/>
       <Footer/>
+      <Library/>
+      <BusSystem/>
+      <Shop/>
     </div>
   )
 }

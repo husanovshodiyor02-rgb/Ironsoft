@@ -117,26 +117,6 @@ const Showcase = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="flex items-center gap-5 pt-5">
-              <div className="border w-[241px] h-[104px] border-solid border-[#3d4449] px-6 py-3">
-                <img src={Img9} alt="" />
-                <h4 className="font-normal text-xl leading-[133%] text-white pt-2">
-                  Web Development
-                </h4>
-              </div>
-              <div className="border w-[241px] h-[104px] border-solid border-[#3d4449] px-6 py-3">
-                <img src={Img10} alt="" />
-                <h4 className="font-normal text-xl leading-[133%] text-white pt-2">
-                  SEOptimisation
-                </h4>
-              </div>
-              <div className="border w-[241px] h-[104px] border-solid border-[#3d4449] px-6 py-3">
-                <img src={Img11} alt="" />
-                <h4 className="font-normal text-xl leading-[133%] text-white pt-2">
-                  PPC and SMM
-                </h4>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
