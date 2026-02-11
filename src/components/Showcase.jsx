@@ -52,7 +52,7 @@ const Showcase = () => {
               Trust Us
             </h3>
             <br />
-            <div className="flex items-center gap-5 sm:pb-0 pb-10 overflow-x-auto">
+            <div className="flex items-center gap-5 sm:pb-0 pb-10">
               <img
                 src={Img5}
                 alt=""
