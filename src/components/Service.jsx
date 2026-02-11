@@ -205,7 +205,7 @@ const Service = () => {
         </h2>
       </div>
       <div className="flex gap-6 overflow-x-auto">
-        <div>
+        <div className='shrink-0'>
           <img src={B1} alt="" className="w-[337px] h-[280px]" />
           <h3 className="font-normal text-2xl leading-[117%] text-[#0c151c]">
             IKEA.com — the problems with <br /> static content
@@ -221,7 +221,7 @@ const Service = () => {
             12.08.23
           </p>
         </div>
-        <div>
+        <div className='shrink-0'>
           <img src={B2} alt="" className="w-[337px] h-[280px]" />
           <h3 className="font-normal text-2xl leading-[117%] text-[#0c151c]">
             IKEA.com — the problems with <br /> static content
@@ -237,7 +237,7 @@ const Service = () => {
             12.08.23
           </p>
         </div>
-        <div>
+        <div className='shrink-0'>
           <img src={B3} alt="" className="w-[337px] h-[280px]" />
           <h3 className="font-normal text-2xl leading-[117%] text-[#0c151c]">
             IKEA.com — the problems with <br /> static content
@@ -253,7 +253,7 @@ const Service = () => {
             12.08.23
           </p>
         </div>
-        <div>
+        <div className='shrink-0'>
           <img src={B1} alt="" className="w-[337px] h-[280px]" />
           <h3 className="font-normal text-2xl leading-[117%] text-[#0c151c]">
             IKEA.com — the problems with <br /> static content
@@ -269,7 +269,7 @@ const Service = () => {
             12.08.23
           </p>
         </div>
-        <div>
+        <div className='shrink-0'>
           <img src={B3} alt="" className="w-[337px] h-[280px]" />
           <h3 className="font-normal text-2xl leading-[117%] text-[#0c151c]">
             IKEA.com — the problems with <br /> static content
